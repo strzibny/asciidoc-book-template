@@ -1,4 +1,4 @@
-= Asciidoc Book Template: Simple technical book template
+= AsciiDoc Book Template: Simple technical book template
 :doctype: book
 :toc:
 :sectnums:
@@ -36,6 +36,10 @@ class ExampleTest < Minitest::Test
 end
 ----
 
+Image:
+
+image::example_image.png[]
+
 Paragraph with `code`, **bold**, and _italics_.
 
 NOTE: Note.
@@ -50,12 +54,7 @@ IMPORTANT: Important note.
 |===
 |Left |Right
 
-a|`find`
-
-Options:
-
-`normalize_ws`
-`visible`
+a|See the `code` block on the right
 a|
 
 [source,ruby]
