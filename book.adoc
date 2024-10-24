@@ -1,0 +1,71 @@
+= Asciidoc Book Template: A Ruby template for a technical book
+:doctype: book
+:toc:
+:sectnums:
+:source-highlighter: rouge
+:author: Josef Strzibny
+:revnumber: 1.0
+:front-cover-image: image:cover.png[pdfwidth=100%]
+// Alternatively:
+// :title-page-background-image: image:logo.png[fit=none,pdfwidth=50%]
+:pdf-page-size: LETTER
+
+Book description
+
+@ Josef Strzibny
+
+== Introduction
+
+Introduction
+
+== Chapter
+
+A chapter.
+
+Code block:
+
+[source,ruby]
+----
+# test.rb
+require "minitest/autorun"
+...
+class ExampleTest < Minitest::Test
+  def test_truth
+    assert true
+  end
+end
+----
+
+Paragraph with `code`, **bold**, and _italics_.
+
+NOTE: Note.
+
+IMPORTANT: Important note.
+
+== Reference
+
+=== Tables
+
+[cols="1,2"]
+|===
+|Left |Right
+
+a|`find`
+
+Options:
+
+`normalize_ws`
+`visible`
+a|
+
+[source,ruby]
+----
+puts "I am code block in table."
+----
+
+|===
+
+== Fin
+
+The end.
+

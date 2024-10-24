@@ -1,0 +1,38 @@
+GEM
+  specs:
+    asciidoctor (2.0.20)
+    asciidoctor-epub3 (2.1.0)
+      asciidoctor (~> 2.0)
+      gepub (~> 1.0.0)
+      mime-types (~> 3.0)
+      sass
+    ffi (1.16.3)
+    foreman (0.87.2)
+    gepub (1.0.15)
+      nokogiri (>= 1.8.2, < 2.0)
+      rubyzip (> 1.1.1, < 2.4)
+    mime-types (3.5.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2023.1205)
+    nokogiri (1.15.5-arm64-darwin)
+      racc (~> 1.4)
+    racc (1.7.3)
+    rb-fsevent (0.11.1)
+    rb-inotify (0.10.1)
+      ffi (~> 1.0)
+    rubyzip (2.3.2)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+
+PLATFORMS
+  arm64-darwin-22
+
+DEPENDENCIES
+  asciidoctor-epub3
+  foreman
+
+BUNDLED WITH
+   2.4.10
