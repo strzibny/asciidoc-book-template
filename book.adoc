@@ -1,4 +1,4 @@
-= Asciidoc Book Template: A Ruby template for a technical book
+= Asciidoc Book Template: Simple technical book template
 :doctype: book
 :toc:
 :sectnums:
